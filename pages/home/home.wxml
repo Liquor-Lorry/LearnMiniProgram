@@ -1,3 +1,8 @@
 <!--pages/home/home.wxml-->
-<text class="title">Hello World!</text>
+<text class="title" selectable id="content">Hello World!</text>
 <button size="mini">按钮</button>
+<view></view>
+<scroll-view></scroll-view>
+
+<!-- hidden属性 -->
+<view hidden>哈哈哈</view>
