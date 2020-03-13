@@ -2,5 +2,18 @@
 <text class="title">Hello World!</text>
 <button size="mini">按钮</button>
 
-<view>2.知识点二</view>
-<view>嘿嘿嘿嘿嘿嘿</view>
+<!-- 获取用户信息另一种方式 -->
+<button size="mini" 
+        open-type="getUserInfo" 
+        bindgetuserinfo="handleGetUserInfo">
+  获取用户信息
+</button>
+
+<!-- 直接在界面上显示用户信息 -->
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
+
+<view bindtap="handleViewClick">{{message}}</view>
+
+<!-- 展示数据 -->
+<view wx:for="{{list}}">{{item.title}}</view>
