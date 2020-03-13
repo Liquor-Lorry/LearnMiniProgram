@@ -1,0 +1,24 @@
+<!--pages/input/input.wxml-->
+
+<!-- 1.input的基本使用 -->
+<input/>
+
+<!-- 2.value: input中的默认值 -->
+<input value="Lorry" />
+
+<!-- 3.type: 决定键盘类型(英文字母+其他符号/数字/身份证)  需真机测试-->
+<input type="number" />
+
+<!-- 4.password: 暗文 -->
+<input password />
+
+<!-- 5.placeholder: 占位文字(提示词) -->
+<input placeholder="请输入内容" />
+
+<!-- 6.confirm-type: 手机键盘右下角按钮文字  需真机测试 -->
+<input confirm-type="next" />
+
+<!-- 7.input绑定事件 -->
+<input bindinput="handleInput"
+       bindfocus="handleFocus" 
+       bindblur="handleBlur" />
