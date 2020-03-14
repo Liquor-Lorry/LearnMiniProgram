@@ -1,3 +1,5 @@
+<include src="/wxml/header.wxml" />
+
 <!--pages/home/home.wxml-->
 <text class="title" selectable id="content">Hello World!</text>
 <button size="mini">按钮</button>
@@ -6,3 +8,8 @@
 
 <!-- hidden属性 -->
 <view hidden>哈哈哈</view>
+
+<!-- 在首页中也可以导入使用 -->
+<!-- <import src="/wxml/template.wxml"/> -->
+
+<include src="/wxml/footer.wxml" />
