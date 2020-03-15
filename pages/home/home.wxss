@@ -3,3 +3,49 @@
   color: aqua;
   font-size: 25px
 }
+
+.box {
+  width: 300rpx;
+  height: 300rpx;
+  background-color: orangered;
+}
+
+.outer {
+  width: 400rpx;
+  height: 400rpx;
+  background-color: rebeccapurple;
+}
+
+.inner {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: blue;
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.view1 {
+  width: 600rpx;
+  height: 600rpx;
+  background-color: greenyellow;
+}
+
+.view2 {
+  width: 400rpx;
+  height: 400rpx;
+  background-color: brown;
+}
+
+.view3 {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: coral;
+}
